@@ -1,0 +1,17 @@
+{
+  "name": "finrep",
+  "version": "1.0.0",
+  "description": "Finance reports parser and agregator based on google app script.",
+  "main": "index.js",
+  "repository": "https://gitlab.com/ringill/finrep.git",
+  "author": "Mikhail Guskov <ringill@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "google-auth-library": "^2.0.1",
+    "googleapis": "^35.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
